@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(unitree_legged_sdk)
+project(unitree_legged_sdk-a1_ros2)
 
 include_directories(include)
 
