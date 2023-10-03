@@ -116,9 +116,9 @@ namespace UNITREE_LEGGED_SDK
 		Cartesian footPosition2Body[4];    // foot position relative to body
 		Cartesian footSpeed2Body[4];       // foot speed relative to body
 		int16_t footForce[4];
-		//int16_t footForceEst[4];
+		int16_t footForceEst[4];
 		uint32_t tick;                     // reference real-time from motion controller (unit: us)
-		//uint8_t wirelessRemote[40];
+		uint8_t wirelessRemote[40];
 		uint32_t reserve;
 		uint32_t crc;
 	} HighState;                           // high level feedback
